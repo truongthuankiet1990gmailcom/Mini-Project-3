@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 *{
     box-sizing: border-box;
@@ -63,70 +63,4 @@ body{
 
 .pagination{
     margin-top: 30px;
-=======
-
-*{
-    box-sizing: border-box;
-}
-body{
-    margin:0;
-    padding:0;
-}
-.DanhMuc{
-    display:flex;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-}
-.DanhMuc .category{
-    width: 15%;
-    margin-left: 20px;
-    font-size: 15px;
-    background-color: yellow;
-    border: solid black 1px;
-    margin-bottom: 10px;
-}
-.search-item{
-    width: 20%;
-}
-.DanhSach{
-    display: flex;
-    flex-wrap: wrap;
-}
-.DanhSach .search-item .inner-image{
-    width:100%;
-    aspect-ratio: 4/3;
-    object-fit: contain;
-}
-
-.search-item{
-    margin-bottom:20px;
-}
-
-.search-item .inner-item{
-    position: relative;
-    margin: 5px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    height: 100%;
-}
-
-.search-item .inner-item .percent{
-    position: absolute;
-    top:0;
-    right:0;
-    background-color: red;
-}
-
-.Page{
-    border: 1px solid yellow;
-    padding:10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: yellow;
-}
-
-.pagination{
-    margin-top: 30px;
->>>>>>> 9d5379cbef0370534b06327a4862a9f1ade56056
 }
