@@ -41,7 +41,7 @@ fetch(api)
         // CHỖ NÀY NÈ A
 })
     .catch((error) => {
-        console.error("Lỗi:", error);
+        console.log("Lỗi:", error);
     });
 
 const test = (button) => {
@@ -147,10 +147,7 @@ const test = (button) => {
                 }
             })
             .catch((error) => {
-                console.error("Lỗi:", error);
+                console.log("Lỗi:", error);
             });
 }
-
-
-
     document.addEventListener("DOMContentLoaded", test);
