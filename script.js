@@ -1,4 +1,4 @@
-const api = "http://localhost:3000/category";
+const api = "https://j-son-server-dusky.vercel.app/category";
 let searchvaluebutton = "";
 
 fetch(api)
@@ -45,7 +45,7 @@ fetch(api)
     });
 
 const test = (button) => {
-    const api1 = "http://localhost:3000/products";
+    const api1 = "https://j-son-server-dusky.vercel.app/products";
         let searchvalue = searchvaluebutton;
         let params = {
             sort: "",
