@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src = "script.js"></script>
+</head>
+<body>
+    <h3>Danh mục sản phẩm</h3>
+    <div class="DanhMuc col-xl-12" id="DanhMuc"></div>
+    <h3>Danh sách sản phẩm</h3>
+    <input id = "search" class = "search" placeholder="Tìm kiếm sản phẩm">
+    <button id = "searchbutton" class = "searchbutton">Tìm kiếm</button>
+    <select id = "filter">
+        <option value = "mac-dinh">Mặc định</option>
+        <option value = "thap-cao">Gía thấp đến cao</option>
+        <option value = "cao-thap">Gía cao đến thấp</option>
+        <option value = "giam-nhieu">Giảm giá nhiều</option>
+    </select>
+    <div class="DanhSach" id="DanhSach"></div>
+    <div id = "pagination" class = "pagination">
+        <button id = "pagination_prev" class = "pagination_button">Prev</button>
+        <span class = "Page" id = "Page"></span>
+        <button id = "pagination_next" class = "pagination_button">Next</button>
+    </div>
+    
+</body>
+</html>
